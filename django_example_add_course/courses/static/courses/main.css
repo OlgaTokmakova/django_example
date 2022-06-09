@@ -1,0 +1,58 @@
+body {
+    background: #fafafa;
+}
+
+.courses, .main-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    margin: 100px 10%;
+}
+
+.courses .course {
+    width: 30%;
+}
+
+.courses .course img {width: 100%}
+
+.main-block {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.one-course {margin-right: 100px}
+
+.content {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.form-register {
+  padding: 20px;
+  background: #fafafa;
+  border: 1px solid silver;
+  margin-top: 20px;
+}
+
+.form-register .helptext {color: #b7b7b7}
+
+.form-register ul.errorlist {
+    color: #ca5858;
+    font-weight: bold;
+}
+
+.form-register.auth input, .form-register.auth textarea {
+  display: block;
+  width: 96%;
+  margin-top: 5px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+footer {
+    width: 80%;
+    margin-left: 10%;
+}
